@@ -22,12 +22,21 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      height: {
+        '26': '6.5rem'
+      },
       colors: {
         redis: '#f58'
       },
       aspectRatio: {
         '4/3': '4 / 3',
         '6/4': '6/4',
+      },
+      gridTemplateColumns: {
+        '80/20': '80% 20%'
+      },
+      rotate: {
+        '225': '225deg',
       },
     },
   },
