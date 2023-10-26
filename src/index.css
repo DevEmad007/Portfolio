@@ -12,5 +12,9 @@
   tap-highlight-color: transparent; /* Firefox */
 }
 
+:root {
+  background-color: black;
+  color: white;
+}
 
 
