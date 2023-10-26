@@ -1,5 +1,5 @@
 import React from 'react';
-import DPsrc from '../../assets/DP.jpeg';
+import DPsrc from '../../../public/DP.jpeg';
 const DP = () => {
     return (
         <>

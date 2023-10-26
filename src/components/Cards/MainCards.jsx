@@ -1,18 +1,13 @@
 import React from 'react';
+import CardImg from './CardImg';
+import CardDescription from './CardDescription';
 
-const MainCards = () => {
+const MainCards = ({ item }) => {
     return (
-        <div className='m-2 min-w-min max-w-lg flex-auto cursor-pointer border-none '>
-            <div className='w-full aspect-6/4 bg-gray-400 flex justify-center items-center rounded-t-lg'>
-
-                Image
-
-            </div>
-            <div className='p-2 bg-blue-600 rounded-b-lg'>
-                <h2 className=' text-lg font-semibold'>title</h2>
-                <p>discreption of the project goes here</p>
-            </div>
-        </div>
+        <a href={item?.link} className='my-2 sm:my-0 min-w-min max-w-xl cursor-pointer border-none '>
+            <CardImg img={item.img} />
+            <CardDescription item={item} />
+        </a>
     );
 };
 
