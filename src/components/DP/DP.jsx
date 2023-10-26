@@ -1,9 +1,8 @@
-import React from 'react';
-// import DPsrc from '../../../public/DP.jpeg';
-const DP = () => {
+const DP = ({ className }) => {
+
     return (
         <>
-            <img loading='lazy' className="absolute top-14 left-5 w-28 h-28 rounded-full border-2 border-white" src={"./DP.jpeg"} alt="" srcSet="" />
+            <img loading='lazy' className={className} src={"./DP.jpeg"} alt="" srcSet="" />
         </>
     );
 };

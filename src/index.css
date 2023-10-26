@@ -2,6 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .long-height{
+    height: 7rem;
+  }
+  
+  .short-height{
+    height: 5rem;
+  }
+
+  .moveDP{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.75rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .moveBackDP{
+    position: absolute;
+    top: 3.5rem;
+    left: 1.25rem;
+    width: 7rem;
+    height: 7rem;
+  }
+  
+  .moveBackBTN {
+    position: absolute;
+    top: 8rem;
+    right: 1.5rem;
+  }
+  
+  .moveBTN {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.5rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -28,6 +28,9 @@ export default {
       colors: {
         redis: '#f58'
       },
+      backgroundImage: {
+        header: 'linear-gradient(to right, #370537, #6d0244, #a20f44, #ce3635, #eb6612)'
+      },
       aspectRatio: {
         '4/3': '4 / 3',
         '6/4': '6/4',
