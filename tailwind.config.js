@@ -28,6 +28,9 @@ export default {
       minWidth: {
         260: '86%'
       },
+      minHeight: {
+        'sl': '300px'
+      },
       colors: {
         redis: '#f58'
       },
@@ -39,7 +42,8 @@ export default {
         '6/4': '6/4',
       },
       gridTemplateColumns: {
-        '80/20': '80% 20%'
+        '80/20': '80% 20%',
+        '75/25': '75% 25%',
       },
       rotate: {
         '225': '225deg',
@@ -52,8 +56,10 @@ export default {
       translate: {
         's0': '0%',
         's1': '82%',
-        's2': '172%',
-        's3': '262%',
+        's2': '171%',
+        's3': '260%',
+        's4': '343%',
+        's5': '430%'
       }
     },
   },

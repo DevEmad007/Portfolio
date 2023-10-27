@@ -37,23 +37,6 @@
     top: 1.25rem;
     right: 0.75rem;
   }
-
-  .visibleMove {
-    transform: translateX(-82%);
-  }
-
-  .index0{
-    transform: translateX(-0%);
-  }
-  .index1{
-    transform: translateX(-82%);
-  }
-  .index2{
-    transform: translateX(-172%);
-  }
-  .index3{
-    transform: translateX(-262%);
-  }
 }
 
 * {
