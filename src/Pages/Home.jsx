@@ -3,6 +3,9 @@ import Header from '../components/Header/Header';
 import MainCards from '../components/Cards/MainCards';
 import Projects from '../components/Projects/Projects';
 import CodeSkills from '../components/CoreSkills/CodeSkills';
+import Reviews from '../components/Reviews/Reviews';
+import Footer from '../components/Footer/Footer';
+import GithubPage from '../components/GithubPage/GithubPage';
 
 const Home = () => {
     return (
@@ -10,7 +13,9 @@ const Home = () => {
             <Header />
             <Projects />
             <CodeSkills />
-            <div className=' h-20 '></div>
+            <GithubPage />
+            {/* <Reviews /> */}
+            <Footer />
         </>
     );
 };

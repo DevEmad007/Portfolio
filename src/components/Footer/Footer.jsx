@@ -1,25 +1,28 @@
-import React,{ useEffect,useState } from 'react';
+import React,{ useEffect,useLayoutEffect,useRef,useState } from 'react';
 import Facebook from '../../assets/facebook.svg';
 import Instagram from '../../assets/instagram.svg';
 import Github from '../../assets/github.svg';
 import LinkedIn from '../../assets/linkedin.svg';
 import X from '../../assets/twitterx.svg';
+import useSkipRender from '../../Hooks/useSkipRender';
 
 const Footer = () => {
     const [ ipAddress,setIpAddress ] = useState();
     const [ country,setCountry ] = useState();
+    const skipRender = useRef(true);
     const year = new Date().getFullYear();
-    useEffect(() => {
+
+    useLayoutEffect(() => {
         fetch('https://api.ipify.org?format=json')
             .then(response => response.json())
             .then(data => setIpAddress(data.ip));
     },[]);
 
-    useEffect(() => {
+    useSkipRender(() => {
         fetch("https://api.ipfind.com/?ip=" + ipAddress)
             .then(res => res.json())
             .then(data => setCountry(data.country));
-    },[ ipAddress ]);
+    },ipAddress);
 
     return (
         <footer className='text-center '>
