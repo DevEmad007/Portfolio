@@ -48,9 +48,9 @@ const Header = () => {
                 ${!show ? 'short-height ' : window.scrollY < 50 ? 'long-height' : 'short-height'} 
                 bg-header fixed top-0 left-0 right-0 
                 flex justify-center items-center
-                scroll-smooth transition-all`}
+                scroll-smooth transition-all z-30`}
             >
-                <h4 className=' font-semibold text-2xl tracking-widest'>Emad</h4>
+                <h4 className=' font-sans font-semibold text-2xl tracking-widest'>Emad</h4>
                 <DP className={`${!show ? 'moveDP ' : window.scrollY < 50 ? 'moveBackDP' : 'moveDP'}
                     absolute lg:right-32
                     rounded-full border-2 border-white
