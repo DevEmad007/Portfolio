@@ -25,6 +25,9 @@ export default {
       height: {
         '26': '6.5rem'
       },
+      minWidth: {
+        260: '86%'
+      },
       colors: {
         redis: '#f58'
       },
@@ -41,6 +44,17 @@ export default {
       rotate: {
         '225': '225deg',
       },
+      transitionDuration: {
+        300: '300',
+        500: '500',
+        1000: '1000',
+      },
+      translate: {
+        's0': '0%',
+        's1': '82%',
+        's2': '172%',
+        's3': '262%',
+      }
     },
   },
   plugins: [],
