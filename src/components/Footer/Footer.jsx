@@ -96,7 +96,7 @@ const Footer = () => {
                     </li>
                     <li >
                         <a className=' border-b tracking-wider' href="#">
-                            Cookies Settings
+                            About
                         </a>
                     </li>
                 </ul>

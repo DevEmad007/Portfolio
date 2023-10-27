@@ -67,7 +67,7 @@ const CodeSkills = () => {
                                 border-b border-gray-600 ' key={i}>
                                     <div>
                                         {e?.name}
-                                        <p className='font-normal text-gray-300'>{e?.des}</p>
+                                        <p className='font-normal text-base text-gray-300'>{e?.des}</p>
                                     </div>
                                     <div className='h-4 w-4 border-b-2 border-l-2 rotate-225'></div>
                                 </li>
