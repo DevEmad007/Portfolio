@@ -1,30 +1,9 @@
 import Review from './Review';
 import { useEffect,useRef,useState } from 'react';
+import { ReviewsDb } from '../../Database/db';
+import { otherReviews } from '../../Database/db';
 
 const Reviews = () => {
-    const otherProjects = [
-        {
-            name: 'Review one',
-            des: 'React JS,Firebase',
-            path: ''
-        },
-        {
-            name: 'Review two',
-            des: 'React Tailwind css',
-            path: ''
-        },
-        {
-            name: 'Review three',
-            des: 'React Bootstrap',
-            path: ''
-        },
-        {
-            name: 'Review four',
-            des: 'lorem.......',
-            path: ''
-        },
-    ];
-
     const [ isVisible,setIsVisible ] = useState(false);
     const elementRef = useRef(null);
     const [ index,setIndex ] = useState(0);
@@ -92,18 +71,18 @@ const Reviews = () => {
                 <div
                     ref={elementRef}
                     className={`flex gap-3 ${animate()} duration-700 `}>
-                    <Review index={'0'} />
-                    <Review index={'1'} />
-                    <Review index={'2'} />
-                    <Review index={'3'} />
-                    <Review index={'4'} />
+                    {
+                        ReviewsDb.map((item) => (
+                            <Review key={item.id} item={item} />
+                        ))
+                    }
                 </div>
             </div>
             <div className='m-6 mt-16'>
                 <h3 className='mb-4 text-xl font-bold tracking-wider '>What People saying</h3>
                 <ul className=' flex flex-col gap-1'>
                     {
-                        otherProjects.map((e,i) => (
+                        otherReviews.map((e,i) => (
                             <li
                                 className='p-2 text-lg 
                                 font-semibold 

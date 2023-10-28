@@ -1,47 +1,9 @@
 import React from 'react';
 import SkillCard from '../Cards/SkillCard';
+import { otherProjects,skills } from '../../Database/db';
 
 const CodeSkills = () => {
-    const db = [ {
-        heading: 'Frontend',
-        skils: [ 'HTML',"CSS","Javascript","Tailwind CSS","Bootstrap","React","RESTFULL API","Redux" ]
-    },
-    {
-        heading: 'Backend',
-        skils: [ 'PHP','lavarel' ]
-    },
-    {
-        heading: 'Database',
-        skils: [ 'MySQL',"MongoDB","PostgreSQL" ]
-    },
-    {
-        heading: 'Devops',
-        skils: [ 'GIT','GITHUB',"AWS","Firebase","Google Cloud" ]
-    },
-    ];
 
-    const otherProjects = [
-        {
-            name: 'Project one',
-            des: 'React JS,Firebase',
-            path: ''
-        },
-        {
-            name: 'Project two',
-            des: 'React Tailwind css',
-            path: ''
-        },
-        {
-            name: 'Project three',
-            des: 'React Bootstrap',
-            path: ''
-        },
-        {
-            name: 'Project four',
-            des: 'lorem.......',
-            path: ''
-        },
-    ];
 
     return (
         <div className='mx-6'>
@@ -51,7 +13,7 @@ const CodeSkills = () => {
             <div className='ml-2 md:ml-1 grid  grid-cols-1 lg:grid-cols-80/20'>
                 <div className='grid md:grid-cols-2 lg:grid-cols-4'>
                     {
-                        db.map((e,i) => (
+                        skills.map((e,i) => (
                             <SkillCard key={i} db={e} />))
                     }
                 </div>
