@@ -27,27 +27,29 @@ const Footer = () => {
     return (
         <footer className='text-center '>
             <div className='lg:grid grid-cols-3 place-items-center'>
-                <h2 className='text-3xl font-bold tracking-wider my-12'>Logo</h2>
+                <h2 className='text-3xl font-bold tracking-wider my-12'>
+                    Imad
+                </h2>
                 <div className='w-full'>
                     <ul className=' lg:grid grid-cols-4 gap-4'>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <a href="#">
-                                Link One
+                                About Me
                             </a>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <a href="#">
-                                Link Two
+                                Info
                             </a>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <a href="#">
-                                Link Three
+                                Resume
                             </a>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <a href="#">
-                                Link Four
+                                Hobbies
                             </a>
                         </li>
                     </ul>

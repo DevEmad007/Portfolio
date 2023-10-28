@@ -43,10 +43,13 @@ const Header = () => {
                 bg-header fixed top-0 left-0 right-0 
                 flex justify-center items-center transition-all z-30`}
             >
-                <h4 className=' font-sans font-semibold text-2xl tracking-widest'>Emad</h4>
+                <h4 className=' font-sans font-semibold text-2xl tracking-widest'>
+                    Dev Imad
+                </h4>
                 <DP className={`${!show ? 'moveDP ' : window.scrollY < 50 ? 'moveBackDP' : 'moveDP'}
                     absolute lg:right-32
-                    rounded-full border-2 border-white transition-all`} />
+                    rounded-full border-2 object-cover object-center
+                    border-white transition-all`} />
                 <Button
                     handleClick={handleClick}
                     className={`px-4 py-2 
