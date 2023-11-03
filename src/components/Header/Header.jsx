@@ -59,7 +59,13 @@ const Header = () => {
                      bg-green-600 text-gray-800
                      transition-all`}
                 >
-                    Contact+
+                    {
+                        !show ? (<span className=' font-bold text-xl'> C+ </span>) : window.scrollY < 50 ?
+                            (<> Contact+</>)
+                            :
+                            (<span className=' font-bold text-xl'> C+ </span>)
+                    }
+
                 </Button >
             </header>
             <div className='mb-40'></div>

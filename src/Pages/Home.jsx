@@ -6,6 +6,7 @@ import CodeSkills from '../components/CoreSkills/CodeSkills';
 import Reviews from '../components/Reviews/Reviews';
 import Footer from '../components/Footer/Footer';
 import GithubPage from '../components/GithubPage/GithubPage';
+import ProjectPreview from '../components/Modals/ProjectPreview';
 
 const Home = () => {
     return (
@@ -13,7 +14,6 @@ const Home = () => {
             <Header />
             <Projects />
             <CodeSkills />
-            {/* <GithubPage /> */}
             <Reviews />
             <Footer />
         </>
