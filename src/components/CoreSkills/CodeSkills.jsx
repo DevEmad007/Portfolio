@@ -17,21 +17,25 @@ const CodeSkills = () => {
                             <SkillCard key={i} db={e} />))
                     }
                 </div>
-                <div className='mt-4'>
+                <div className='mt-4 -ml-4 -mr-2 '>
                     <h3 className='mb-4 text-xl font-bold tracking-wider '>Other Projects</h3>
                     <ul className=' flex flex-col gap-1'>
                         {
                             otherProjects.map((e,i) => (
                                 <li
-                                    className='p-2 text-lg 
-                                font-semibold 
-                                flex justify-between items-center 
-                                border-b border-gray-600 ' key={i}>
-                                    <div>
-                                        {e?.name}
-                                        <p className='font-normal text-base text-gray-300'>{e?.des}</p>
-                                    </div>
-                                    <div className='h-4 w-4 border-b-2 border-l-2 rotate-225'></div>
+                                    className='text-lg 
+                                font-semibold '
+                                    key={i}>
+                                    <a
+                                        className='p-2 flex justify-between items-center 
+                                    border-b border-gray-600 '
+                                        href={e.path}>
+                                        <div>
+                                            {e?.name}
+                                            <p className='font-normal text-base text-gray-300'>{e?.des}</p>
+                                        </div>
+                                        <div className='h-4 w-4 border-b-2 border-l-2 rotate-225'></div>
+                                    </a>
                                 </li>
                             ))
                         }
