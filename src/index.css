@@ -36,7 +36,11 @@
     position: absolute;
     top: 1.25rem;
     right: 0.75rem;
-      }
+  }
+
+  .scroll-bar-hidden::-webkit-scrollbar {
+    display: none;
+  }
 }
 
 * {

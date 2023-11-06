@@ -93,7 +93,7 @@ export const projectsdb = [
                     body: "The Context API is a React feature that allows you to share data between components without passing props through the component tree. This can be useful for managing global state in social media applications.",
                 },
                 {
-                    Name: "Dark Mode:",
+                    Name: "Dark Mode",
                     body: "Dark mode is a feature that allows users to change the appearance of an application to a darker color scheme. Dark mode is popular among users because it can reduce eye strain and improve battery life.",
                 },
             ]

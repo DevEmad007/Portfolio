@@ -17,7 +17,7 @@ const CodeSkills = () => {
                             <SkillCard key={i} db={e} />))
                     }
                 </div>
-                <div className='mt-4 -ml-4 -mr-2 '>
+                <div className='mt-4 -ml-4 md:ml-0 md:px-4 -mr-2 '>
                     <h3 className='mb-4 text-xl font-bold tracking-wider '>Other Projects</h3>
                     <ul className=' flex flex-col gap-1'>
                         {
