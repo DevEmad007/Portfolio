@@ -44,7 +44,7 @@ const Header = () => {
                 flex justify-center items-center transition-all z-30`}
             >
                 <h4 className=' font-sans font-semibold text-2xl tracking-widest'>
-                    Dev Imad
+                    Farshid
                 </h4>
                 <DP className={`${!show ? 'moveDP ' : window.scrollY < 50 ? 'moveBackDP' : 'moveDP'}
                     absolute lg:right-32

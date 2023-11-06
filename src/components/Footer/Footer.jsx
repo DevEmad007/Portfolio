@@ -28,7 +28,7 @@ const Footer = () => {
         <footer className='text-center '>
             <div className='lg:grid grid-cols-3 place-items-center'>
                 <h2 className='text-3xl font-bold tracking-wider my-12'>
-                    Imad
+                    Farshid Ibtihaj Yemad
                 </h2>
                 <div className='w-full'>
                     <ul className=' lg:grid grid-cols-4 gap-4'>
