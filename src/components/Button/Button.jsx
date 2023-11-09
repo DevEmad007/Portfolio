@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = ({ handleClick,className,children }) => {
     return (
-        <button onClick={handleClick} className={className ? className : ''}>{children}</button>
+        <button type='button' onClick={handleClick} className={className ? className : ''}>{children}</button>
     );
 };
 

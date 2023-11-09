@@ -1,6 +1,7 @@
 import React,{ useEffect,useRef,useState } from 'react';
 import DP from '../DP/DP';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const handleClick = () => {
@@ -44,7 +45,9 @@ const Header = () => {
                 flex justify-center items-center transition-all z-30`}
             >
                 <h4 className=' font-sans font-semibold text-2xl tracking-widest'>
-                    Farshid
+                    <Link to={'/'}>
+                        Farshid
+                    </Link>
                 </h4>
                 <DP className={`${!show ? 'moveDP ' : window.scrollY < 50 ? 'moveBackDP' : 'moveDP'}
                     absolute lg:right-32

@@ -5,6 +5,7 @@ import Github from '../../assets/github.svg';
 import LinkedIn from '../../assets/linkedin.svg';
 import X from '../../assets/twitterx.svg';
 import useSkipRender from '../../Hooks/useSkipRender';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const [ ipAddress,setIpAddress ] = useState();
@@ -33,14 +34,14 @@ const Footer = () => {
                 <div className='w-full'>
                     <ul className=' lg:grid grid-cols-4 gap-4'>
                         <li className='my-6 text-xl whitespace-nowrap'>
-                            <a href="#">
+                            <Link to={'/about'}>
                                 About Me
-                            </a>
+                            </Link>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
-                            <a href="#">
+                            <Link reloadDocument to={'/'}>
                                 Info
-                            </a>
+                            </Link>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <a href="#">
@@ -48,9 +49,9 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
-                            <a href="#">
-                                Hobbies
-                            </a>
+                            <Link reloadDocument to={'blogs'}>
+                                Blogs
+                            </Link>
                         </li>
                     </ul>
                 </div>
