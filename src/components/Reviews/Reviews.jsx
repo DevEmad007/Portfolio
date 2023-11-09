@@ -65,6 +65,15 @@ const Reviews = () => {
         }
     };
 
+    const handleOpen = (e) => {
+        const condition = e.currentTarget.classList.contains('h-[64px]');
+        if (condition) {
+            e.currentTarget.classList.replace('h-[64px]','h-auto');
+        } else {
+            e.currentTarget.classList.replace('h-auto','h-[64px]');
+        }
+    };
+
     return (
         <div className='lg:grid lg:grid-cols-80/20 lg:px-10'>
             <div className={`m-4  overflow-hidden lg:pl-12`}>
@@ -84,15 +93,16 @@ const Reviews = () => {
                     {
                         otherReviews.map((e,i) => (
                             <li
-                                className='p-2 text-lg 
-                                font-semibold 
-                                flex justify-between items-center 
-                                border-b border-gray-600 ' key={i}>
+                                onClick={handleOpen}
+                                className={`pt-2 mb-2 text-lg h-[64px]
+                                font-semibold overflow-hidden
+                                flex justify-between duration-300
+                                border-b border-gray-600 `} key={i}>
                                 <div>
                                     {e?.name}
                                     <p className='font-normal text-base text-gray-300'>{e?.des}</p>
                                 </div>
-                                <div className='h-4 w-4 border-b-2 border-l-2 rotate-225'></div>
+                                <div className='h-4 w-4 mt-3 mr-2 border-b-2 border-l-2 rotate-225'></div>
                             </li>
                         ))
                     }
