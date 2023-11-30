@@ -42,7 +42,7 @@ const Reviews = () => {
                 });
             }
         };
-        window.setInterval(handleslide,6000);
+        window.setInterval(handleslide,10000);
         return () => {
             window.clearInterval(handleslide);
         };
@@ -78,7 +78,7 @@ const Reviews = () => {
         <div className='lg:grid lg:grid-cols-80/20 lg:px-10'>
             <div className={`m-4  overflow-hidden lg:pl-12`}>
                 <h3 className='text-2xl sm:-ml-[50px] font-bold tracking-wider mt-12 mb-6 '>
-                    Blogs
+                    Blogs Preview
                 </h3>
                 <div
                     ref={elementRef}

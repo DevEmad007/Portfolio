@@ -26,15 +26,14 @@ const Footer = () => {
             .then(data => setCountry(data.country));
     },ipAddress);
 
-    const fileURL = resume;
-
     const handleDownload = () => {
         const anchorTag = document.createElement('a');
-        anchorTag.href = fileURL;
-        anchorTag.download = fileURL;
+        anchorTag.href = resume;
+        anchorTag.download = resume;
         anchorTag.click();
         URL.revokeObjectURL(anchorTag.href);
     };
+
     return (
         <footer className='text-center '>
             <div className='lg:grid grid-cols-3 place-items-center'>
