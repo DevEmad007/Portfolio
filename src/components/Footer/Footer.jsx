@@ -6,6 +6,7 @@ import LinkedIn from '../../assets/linkedin.svg';
 import X from '../../assets/twitterx.svg';
 import useSkipRender from '../../Hooks/useSkipRender';
 import { Link } from 'react-router-dom';
+import resume from '../../assets/Farshid_Ibtihaj_Yemad.pdf';
 
 const Footer = () => {
     const [ ipAddress,setIpAddress ] = useState();
@@ -25,6 +26,15 @@ const Footer = () => {
             .then(data => setCountry(data.country));
     },ipAddress);
 
+    const fileURL = resume;
+
+    const handleDownload = () => {
+        const anchorTag = document.createElement('a');
+        anchorTag.href = fileURL;
+        anchorTag.download = fileURL;
+        anchorTag.click();
+        URL.revokeObjectURL(anchorTag.href);
+    };
     return (
         <footer className='text-center '>
             <div className='lg:grid grid-cols-3 place-items-center'>
@@ -44,9 +54,7 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
-                            <a href="#">
-                                Resume
-                            </a>
+                            <button onClick={handleDownload}>Resume</button>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
                             <Link reloadDocument to={'blogs'}>
