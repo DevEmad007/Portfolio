@@ -77,6 +77,9 @@ const Reviews = () => {
     return (
         <div className='lg:grid lg:grid-cols-80/20 lg:px-10'>
             <div className={`m-4  overflow-hidden lg:pl-12`}>
+                <h3 className='text-2xl sm:-ml-[50px] font-bold tracking-wider mt-12 mb-6 '>
+                    Blogs
+                </h3>
                 <div
                     ref={elementRef}
                     className={`flex gap-3 ${animate()} duration-700 `}>
@@ -88,7 +91,9 @@ const Reviews = () => {
                 </div>
             </div>
             <div className='m-6 mt-16'>
-                <h3 className='mb-4 text-xl font-bold tracking-wider '>What People saying</h3>
+                <h3 className='mb-4 text-xl font-bold tracking-wider '>
+                    Favourite Quotes
+                </h3>
                 <ul className=' flex flex-col gap-1'>
                     {
                         otherReviews.map((e,i) => (
@@ -100,7 +105,7 @@ const Reviews = () => {
                                 border-b border-gray-600 `} key={i}>
                                 <div>
                                     {e?.name}
-                                    <p className='font-normal text-base text-gray-300'>{e?.des}</p>
+                                    <p className='font-normal text-base  text-gray-300'>{e?.des}</p>
                                 </div>
                                 <div className='h-4 w-4 mt-3 mr-2 border-b-2 border-l-2 rotate-225'></div>
                             </li>
