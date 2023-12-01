@@ -42,21 +42,21 @@ const Footer = () => {
                 </h2>
                 <div className='w-full'>
                     <ul className=' lg:grid grid-cols-4 gap-4'>
-                        <li className='my-6 text-xl whitespace-nowrap'>
+                        <li className='my-6 text-xl whitespace-nowrap hover:underline'>
                             <Link to={'/about'}>
                                 About Me
                             </Link>
                         </li>
-                        <li className='my-6 text-xl whitespace-nowrap'>
+                        <li className='my-6 text-xl whitespace-nowrap hover:underline'>
                             <Link reloadDocument to={'/'}>
                                 Info
                             </Link>
                         </li>
-                        <li className='my-6 text-xl whitespace-nowrap'>
-                            <button onClick={handleDownload}>Resume</button>
+                        <li className='my-6 text-xl whitespace-nowrap '>
+                            <button className='hover:underline' onClick={handleDownload}>Resume</button>
                         </li>
-                        <li className='my-6 text-xl whitespace-nowrap'>
-                            <Link reloadDocument to={'/blogs'}>
+                        <li className='my-6 text-xl whitespace-nowrap hover:underline'>
+                            <Link to={'/blogs'}>
                                 Blogs
                             </Link>
                         </li>
@@ -65,28 +65,28 @@ const Footer = () => {
                 <div className='w-full' >
                     <ul className='my-12 mx-10 md:mx-20 grid gap-4 grid-cols-5 place-items-center justify-center'>
                         <li>
-                            <a className='font-bold text-lg' href="https://www.facebook.com/farsidibtihag.yemad?mibextid=ZbWKwL">
-                                <img className=' w-10' src={Facebook} alt="" />
+                            <a className='font-bold text-lg ' href="https://www.facebook.com/farsidibtihag.yemad?mibextid=ZbWKwL">
+                                <img className=' w-10 hover:scale-110' src={Facebook} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a className='font-bold text-lg' href="https://github.com/DevEmad007">
-                                <img className=' w-10' src={Github} alt="" />
+                            <a className='font-bold text-lg ' href="https://github.com/DevEmad007">
+                                <img className=' w-10 hover:scale-110' src={Github} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a className='font-bold text-lg' href="https://www.linkedin.com/in/farshid-ibtihaj-994104293">
-                                <img className=' w-10' src={LinkedIn} alt="" />
+                            <a className='font-bold text-lg ' href="https://www.linkedin.com/in/farshid-ibtihaj-994104293">
+                                <img className=' w-10 hover:scale-110' src={LinkedIn} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a className='font-bold text-lg' href="https://x.com/FarshidIbtihaj?s=09">
-                                <img className=' w-10' src={X} alt="" />
+                            <a className='font-bold text-lg ' href="https://x.com/FarshidIbtihaj?s=09">
+                                <img className=' w-10 hover:scale-110' src={X} alt="" />
                             </a>
                         </li>
                         <li>
-                            <a className='font-bold text-lg' href="https://instagram.com/farshidibtihaj?igshid=MzMyNGUyNmU2YQ==">
-                                <img className=' w-10' src={Instagram} alt="" />
+                            <a className='font-bold text-lg ' href="https://instagram.com/farshidibtihaj?igshid=MzMyNGUyNmU2YQ==">
+                                <img className=' w-10 hover:scale-110' src={Instagram} alt="" />
                             </a>
                         </li>
                     </ul>

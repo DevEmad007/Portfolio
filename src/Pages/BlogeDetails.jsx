@@ -19,7 +19,7 @@ const BlogeDetails = () => {
                     <div key={index}>
                         <section key={index} >
                             <h2 className='ml-2 mb-2 text-2xl font-semibold'>{item.header}</h2>
-                            <p className='ml-6 mb-2 '>{item?.p}</p>
+                            <p className='ml-6 mb-2 text-slate-400'>{item?.p}</p>
                         </section>
                         <section>
                             <DisplayList list={item?.ul} />

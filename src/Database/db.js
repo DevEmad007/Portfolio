@@ -7,23 +7,23 @@ export const ReviewsDb = [
             "section": [
                 {
                     header: 'What is React Query?',
-                    p: 'React Query is a powerful data synchronization library for React that solves these problems. It provides you with a set of hooks that you can use to fetch, cache, and update data in your React and Next.js applications. React Query uses a stale-while-revalidate caching strategy, which means it will serve stale data (if available) right away and then update it in the background as soon as new data arrives.'
+                    p: 'React Query is a powerful data synchronization library for React that solves these problems. It provides you with a set of hooks that you can use to fetch, cache, and update data in your React and Next.js applications. React Query uses a stale-while-revalidate caching  means it will serve stale data (if available) right away and then update it in the background as soon as new data arrives.'
                 },
                 {
                     header: '',
-                    p: 'React Query is not a state management library, but it is often used alongside state management libraries like Redux or Zustand to handle server state, which is the state derived from asynchronous requests.'
+                    p: 'React Query is not a state management library, but it is often used alongside state management libraries like Redux or Zustand to handle server state, which is the  derived from asynchronous requests.'
                 },
                 {
                     header: 'How we will use React Query',
-                    p: 'When you use React Query to fetch data, the results are stored in a local cache. This means that if you request the same data again, React Query will return the cached results instead of making another API call. The cache is automatically invalidated when the data changes, so you’ll always get the latest data.'
+                    p: 'When you use React Query to fetch data, the results are stored in a local cache. This means that if you request the same data again, React Query will return the cached  instead of making another API call. The cache is automatically invalidated when the data changes, so you’ll always get the latest data.'
                 },
                 {
                     header: '',
-                    p: 'In addition to caching, React Query also supports background refetching. This means that React Query will automatically fetch new data in the background if the cached data is stale. The stale time is the amount of time that the cached data is allowed to be out-of-date before it is refetched. The default stale time is 5 minutes.'
+                    p: 'In addition to caching, React Query also supports  refetching. This means that React Query will automatically fetch new data in the background if the cached data is stale. The stale time is the amount of time that the cached data is allowed to be out-of-date before it is refetched. The default stale time is 5 minutes.'
                 },
                 {
                     header: '',
-                    p: 'The combination of local caching and background refetching makes React Query a powerful tool for managing data fetching in React applications. It can help you to improve performance, reduce API calls, and ensure that your data is always up-to-date.'
+                    p: 'The combination of local caching and  refetching makes React Query a powerful tool for managing data fetching in React applications. It can help you to improve performance, reduce API calls, and ensure that your data is always up-to-date.'
                 },
             ]
         }
