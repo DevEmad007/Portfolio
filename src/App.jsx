@@ -5,18 +5,10 @@ import About from './Pages/About';
 import Blogs from './Pages/Blogs';
 import SharedLayout from './SharedLayout';
 import BlogeDetails from './Pages/BlogeDetails';
+import useStartAtTop from './Hooks/useStartAtTop';
 
 const App = () => {
-  const location = useLocation();
-  const [ paramValue,setParamValue ] = useState(location.pathname);
-
-  useEffect(() => {
-    if (paramValue !== location.pathname) {
-      setParamValue(location.pathname);
-      window.scrollTo({ top: '0' });
-    }
-  },[ location.pathname ]);
-
+  useStartAtTop(0);
   return (
     <Routes>
       <Route path='/' element={<SharedLayout />} >
