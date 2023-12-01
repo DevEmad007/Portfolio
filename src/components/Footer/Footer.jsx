@@ -56,7 +56,7 @@ const Footer = () => {
                             <button onClick={handleDownload}>Resume</button>
                         </li>
                         <li className='my-6 text-xl whitespace-nowrap'>
-                            <Link reloadDocument to={'blogs'}>
+                            <Link reloadDocument to={'/blogs'}>
                                 Blogs
                             </Link>
                         </li>

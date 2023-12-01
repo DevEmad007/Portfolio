@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import DisplayList from '../DisplayList/DisplayList';
 
 const Review = ({ className,item }) => {
     return (
@@ -11,9 +12,19 @@ const Review = ({ className,item }) => {
                     className='text-2xl xl:text-3xl font-semibold tracking-wide mb-[8px] lg:mb-[0px] '>
                     {item?.name}
                 </h4>
-                <p className=' truncate whitespace-break-spaces'>
-                    {item?.testimonial}
-                </p>
+                <div className=' truncate whitespace-break-spaces ml-1 md:ml-2'>
+                    {item?.blog?.section?.map((item,index) =>
+                        <div key={index}>
+                            <section key={index} >
+                                <p >{item?.p}</p>
+                            </section>
+                            <section>
+                                <DisplayList list={item?.ul} />
+                            </section>
+                            {/* <CodeDisplay code={item.code} /> */}
+                        </div>
+                    )}
+                </div>
             </div>
         </Link>
     );

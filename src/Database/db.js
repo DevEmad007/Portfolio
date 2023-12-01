@@ -2,27 +2,155 @@ export const ReviewsDb = [
     {
         "id": 1,
         "photo": "./reviewer5.webp",
-        "name": "Savita Chakrabarti",
-        "testimonial": "This is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm realuality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projeclot of fun to work on.ly impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attention to detail."
+        "name": "React ",
+        "blog": {
+            "section": [
+                {
+                    header: 'What is React Query?',
+                    p: 'React Query is a powerful data synchronization library for React that solves these problems. It provides you with a set of hooks that you can use to fetch, cache, and update data in your React and Next.js applications. React Query uses a stale-while-revalidate caching strategy, which means it will serve stale data (if available) right away and then update it in the background as soon as new data arrives.'
+                },
+                {
+                    header: '',
+                    p: 'React Query is not a state management library, but it is often used alongside state management libraries like Redux or Zustand to handle server state, which is the state derived from asynchronous requests.'
+                },
+                {
+                    header: 'How we will use React Query',
+                    p: 'When you use React Query to fetch data, the results are stored in a local cache. This means that if you request the same data again, React Query will return the cached results instead of making another API call. The cache is automatically invalidated when the data changes, so you’ll always get the latest data.'
+                },
+                {
+                    header: '',
+                    p: 'In addition to caching, React Query also supports background refetching. This means that React Query will automatically fetch new data in the background if the cached data is stale. The stale time is the amount of time that the cached data is allowed to be out-of-date before it is refetched. The default stale time is 5 minutes.'
+                },
+                {
+                    header: '',
+                    p: 'The combination of local caching and background refetching makes React Query a powerful tool for managing data fetching in React applications. It can help you to improve performance, reduce API calls, and ensure that your data is always up-to-date.'
+                },
+            ]
+        }
     },
     {
         "id": 2,
-        "photo": "./reviewer4.webp",
-        "name": " Sarah Williams",
-        "testimonial": "This project is really the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm reauality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projeclot of fun to work on.lly impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projecinnovative and well-designed. I'm excited to see what the developers do next."
+        "photo": "./reviewer5.webp",
+        "name": "React Query",
+        "blog": {
+            "section": [
+                {
+                    header: 'What is React Query?',
+                    p: 'React Query is a powerful data synchronization library for React that solves these problems. It provides you with a set of hooks that you can use to fetch, cache, and update data in your React and Next.js applications. React Query uses a stale-while-revalidate caching strategy, which means it will serve stale data (if available) right away and then update it in the background as soon as new data arrives.'
+                },
+                {
+                    header: '',
+                    p: 'React Query is not a state management library, but it is often used alongside state management libraries like Redux or Zustand to handle server state, which is the state derived from asynchronous requests.'
+                },
+                {
+                    header: 'How we will use React Query',
+                    p: 'When you use React Query to fetch data, the results are stored in a local cache. This means that if you request the same data again, React Query will return the cached results instead of making another API call. The cache is automatically invalidated when the data changes, so you’ll always get the latest data.'
+                },
+                {
+                    header: '',
+                    p: 'In addition to caching, React Query also supports background refetching. This means that React Query will automatically fetch new data in the background if the cached data is stale. The stale time is the amount of time that the cached data is allowed to be out-of-date before it is refetched. The default stale time is 5 minutes.'
+                },
+                {
+                    header: '',
+                    p: 'The combination of local caching and background refetching makes React Query a powerful tool for managing data fetching in React applications. It can help you to improve performance, reduce API calls, and ensure that your data is always up-to-date.'
+                },
+            ]
+        }
     },
     {
         "id": 3,
-        "photo": "./reviewer3.jpg",
-        "name": "Silvia Jons",
-        "testimonial": "This project is athe attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projroject is athe attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projec great example of what's possible with React. I'm glad I had the opportunity to work on it."
+        "photo": "./reviewer5.webp",
+        "name": "Virtual DOM",
+        "blog": {
+            "section": [
+                {
+                    header: 'What is Virtual DOM?',
+                    p: 'Virtual DOM is not an actual DOM, but a representation of actual DOM which is kept in memory. It’s a representation of  DOM nodes in a tree format which is just a plain JavaScript Object',
+                    code: '<div><h1 className="title">Want to learn about Virtual DOM?</h1> <div className="button-container"><Button title="Yes" /><Button title="No" /> </div> </div>'
+                },
+                {
+                    header: '',
+                    p: 'The type defined in the Virtual DOM, in general, refers to the type of HTML DOM element. If you have noticed in the example above, we have used a React Component <Button />. Now, this is not a conventional HTML element. Hence, React treats these components a little differently. If it’s a functional component, React directly calls the function with its assigned props and if it’s a class component, React creates a new instance of the class component and calls its render method.'
+                },
+                {
+                    header: '',
+                    p: 'The key and ref properties are the same props that you know are used in components. key is required while rendering a list of elements, which we will see later in the article and ref are the references we pass in any HTML DOM element to manipulate the element like for managing focus'
+                },
+                {
+                    header: 'Reconciliation',
+                    p: 'After every component update, React creates a new Virtual DOM tree. It then compares the old tree with the new tree to register all the changes that need to be done to the real DOM. This process of generating a new tree and comparing is called Reconciliation.'
+                },
+                {
+                    header: '',
+                    p: 'React uses a Diffing algorithm to compare both trees to effectively update the UI in a minimum number of operations. This algorithm is quite complex but it is based on two assumptions: 1. Two elements of different types will produce different trees.2. The developer can hint at which child elements may be stable across different renders with a key prop'
+                },
+            ]
+        }
     },
     {
         "id": 4,
-        "photo": " ./reviewer1.webp",
-        "name": "Jane Doe",
-        "testimonial": "This project was a the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a greuality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projeclot of fun to work on.at project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projeclot of fun to work ouality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great project! I'm really impressed with the quality of work aand the attenis is a great project! I'm really impressed with the quality of work is is a great projeclot of fun to work on.n. I'm really happy with the results."
+        "photo": "./reviewer5.webp",
+        "name": "Next.js",
+        "blog": {
+            "section": [
+                {
+                    header: 'What is Next.js?',
+                    p: 'Next.js is a React framework that gives you building blocks to create web applications.By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.'
+                },
+                {
+                    header: '',
+                    p: 'You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, integrations - all while improving the developer and end-user experience.'
+                },
+                {
+                    header: '',
+                    p: 'Whether you’re an individual developer or part of a larger team, you can leverage React and Next.js to build fully interactive, highly dynamic, and performant web applications.'
+                },
+                {
+                    header: 'Building Blocks of a Web Application',
+                    p: 'There are a few things you need to consider when building modern applications. Such as:',
+                    ul: [
+                        {
+                            keyWord: 'User Interface',
+                            description: 'how users will consume and interact with your application.'
+                        },
+                        {
+                            keyWord: 'Routing ',
+                            description: 'how users navigate between different parts of your application.'
+                        },
+                        {
+                            keyWord: 'Data Fetching',
+                            description: 'where your data lives and how to get it.'
+                        },
+                        {
+                            keyWord: 'Rendering',
+                            description: 'when and where you render static or dynamic content.'
+                        },
+                        {
+                            keyWord: 'Integrations ',
+                            description: 'what third-party services you use (CMS, auth, payments, etc) and how you connect to them.'
+                        },
+                        {
+                            keyWord: 'Infrastructure ',
+                            description: 'where you deploy, store, and run your application code (Serverless, CDN, Edge, etc).'
+                        },
+                        {
+                            keyWord: 'Performance ',
+                            description: 'how to optimize your application for end-users.'
+                        },
+                        {
+                            keyWord: 'Scalability ',
+                            description: 'how your application adapts as your team, data, and traffic grow.'
+                        },
+                        {
+                            keyWord: 'Developer Experience',
+                            description: 'your team’s experience building and maintaining your application.'
+                        },
+                    ]
+                },
+            ]
+        }
     },
+
     {
         "id": 5,
         "photo": "./reviewer5.webp",
