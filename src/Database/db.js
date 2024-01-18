@@ -314,15 +314,15 @@ export const skills = [
     },
     {
         heading: 'Backend',
-        skils: [ 'PHP','lavarel' ]
+        skils: [ 'PHP','Node JS', 'Express JS']
     },
     {
         heading: 'Database',
-        skils: [ 'MySQL',"MongoDB","PostgreSQL" ]
+        skils: [ 'MySQL',"MongoDB"]
     },
     {
-        heading: 'Devops',
-        skils: [ 'GIT','GITHUB','Docker',"Firebase","Google Cloud" ]
+        heading: 'DevOps',
+        skils: [ 'GIT','GITHUB','Docker',"Firebase" ]
     },
 ];
 
