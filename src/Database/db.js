@@ -314,7 +314,7 @@ export const skills = [
     },
     {
         heading: 'Backend',
-        skils: [ 'PHP','Node JS', 'Express JS']
+        skils: [ 'Node JS', 'Express JS']
     },
     {
         heading: 'Database',
