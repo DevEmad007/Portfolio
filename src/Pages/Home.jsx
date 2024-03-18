@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <Projects />
             <CodeSkills />
-            <Reviews />
+            {/* <Reviews /> */}
         </>
     );
 };
